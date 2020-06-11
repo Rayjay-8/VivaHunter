@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+ <html lang="en" dir="ltr">
+ <head>
+ 		<meta charset="utf-8">
+ 		<title>NEW WORK!!</title>
+ 		<link rel="icon" href="https://www.pngrepo.com/png/203226/180/flash-thunder.png">
+ 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ 		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style media="screen">
+    *{
+
+      margin: 0;
+    }
+    body{
+      background: #f1f1f1;
+      font-family: sans-serif;
+    }
+    h3{
+      font-size: 20px;
+      text-align: left;
+    }
+    img{
+      border-radius: 3px;
+      vertical-align: bottom;
+      border: 1px solid #fff;
+    }
+    .resumo{
+      text-align: left !important;
+    }
+      .bar-top{
+        text-align: center;
+        display: block;
+        height: 40px;
+        background: #fff;
+        box-shadow: 0 1px 1px 0 rgba(0,0,0,.05);
+        padding: 10px;
+        color: #000;
+        
+
+      }
+      .bloco-1{
+        width: 100%;
+        height: auto;
+        margin: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1100px;
+      }
+      .bloco-11{
+
+        background: #f1f1f1;
+
+      }
+      .bloco-2{
+        background: #343434;
+        color: #fff;
+        padding: 20px;
+        margin-top: 2px;
+        cursor: pointer;
+        display: flex;
+      }
+      .bloco-2:hover{
+        background: #646464;
+      }
+      #primeirocloco{
+        margin-top: 10px;
+        border-radius: 5px 10px 0 0;
+      }
+
+      .topico{
+        font-size: 30px;
+        text-align: left;
+        margin: 30px;
+
+        text-align: center;
+      }
+
+      .conte{
+        margin-left: 10px;
+        display: block;
+      }
+      .userimg > img{
+        border-radius: 50%;
+        position: absolute;
+    top: 10px;
+    right: 30px;
+      }
+
+    </style>
+    <script>
+
+      $( document ).ready(function() {
+        for (var i = 0; i < 10; i++) {
+          console.log($(".bloco-1"));
+          var temple = "<div class='bloco-2'><div class='conte'><h3>Produtivity</h3><span class='resumo'>exemplos</span></div></div>"
+          $(".bloco-1").append(temple)
+        }
+      });
+    </script>
+
+ </head>
+ <body>
+   <div class="bar-top">
+      <h1>VivaHunter</h1>
+      <div class="userimg">
+        <img src="https://ph-avatars.imgix.net/2657079/original?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=40&h=40&fit=crop" alt="">
+
+      </div>
+   </div>
+   <div class="bloco-1">
+
+     <div class="bloco-11">
+       <div class="Topico">
+
+         <span class="topico">Topicos</span>
+       </div>
+
+
+     </div>
+
+     <div class="bloco-2" id="primeirocloco">
+       <a href="#" id="displ-img"><img src="https://ph-files.imgix.net/5e906c86-5776-4ef0-9841-2b76dea8e255?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=50&h=50&fit=crop" alt=""></a>
+
+        <div class="conte">
+          <h3>Produtivity</h3>
+          <span class="resumo">exemplos</span>
+       </div>
+
+
+     </div>
+
+     <div class="bloco-2">
+       <div class="conte">
+       <h3>Developer Tools</h3>
+       <span class="resumo">Writing code is hard. So we make software to help us write software. Whether it's a new text editor or little command line app. Dev tools are here to make your life as a developer even easier.</span>
+
+     </div>
+     </div>
+     <div class="bloco-2">
+       <div class="conte">
+       <h3>Marketing</h3>
+       <span class="resumo">Having a killer product is essential, but it's not that useful if no one knows about it. These products will help you spread the word about your new startup or project.</span>
+     </div>
+     </div>
+   </div>
+ </body>
+ </html>
